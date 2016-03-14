@@ -1,0 +1,6 @@
+# nginx server of ynu pages
+ynu_pages:
+    image: ynuae/ynu_pages
+    ports:
+      - "50004:80"
+    restart: always
